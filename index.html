@@ -2,6 +2,7 @@
 
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>Jay Alexander · Web App Developer</title>
     <meta name="description" content="Jay Alexander is a junior web/software developer specialising in back-end development">
 
@@ -10,7 +11,118 @@
     <meta property="og:type" content="Website">
     <meta property="og:description" content="Jay Alexander is a junior web/software developer specialising in back-end development">
     <meta property="og:image" content="https://www.jay-aye.github.io/images/ruby logo.svg">
+    <link type="text/css" rel="stylesheet" href="Stylesheet.css"/>
   </head>
+
   <body>
+
+    <!- Fixed top navigation bar->
+    <nav class="header">
+      <div class="button">
+        <a href="#My Story">My Story</a>
+      </div>
+      <div class="button">
+        <a href="#Projects">Projects</a>
+      </div>
+      <div class="button">
+        <a href="#Technologies">Technologies</a>
+      </div>
+      <div class="button">
+        <a href="#Contact">Contact</a>
+      </div>
+      <div class="button">
+        <a href="#Top">Top</a>
+      </div>
+    </nav>
+
+    <!- Fixed bottom links bar->
+    <nav class="footer">
+      <div class="icon">
+        <a href="https://github.com/Jay-Aye"><img src="github.svg" height="40" hspace="10"/></a>
+        <a href="https://www.linkedin.com/in/jay-alexander-7532b6139/"><img src="linkedin.svg" height="40" hspace="10"/></a>
+        <img src="JA-logo.gif" height="50" hspace="10"/>
+        <a href="https://twitter.com"><img src="twitter.svg" height="40" hspace="10"></a>
+        <a href="#Contact"><img src="email.png" height="35" hspace="10"></a>
+
+      </div>
+    </nav>
+
+    <div id="Top">
+      <div class="header_background">
+      </div>
+
+      <div class="parallax_layer">
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="background" id="My Story">
+      <div class="text_box">
+        <h1>
+          My Story
+        </h1>
+        <p>
+          At 28 years old and 7 years experience in the surveillance/casino gaming industry,
+          I decided it was time to make a career change and learn some new skills.
+          I&rsquo;ve always had a passion for creating and making things. My first exposure
+          to coding was with Arduino when I copied and pasted a code from GitHub. My eyes
+          were opened to a world of possibilities.  From there it has been an adventure
+          of epic proportions. Currently dualing with Ruby, HTML and CSS with future battles
+          planned with JavaScript, Ruby on Rails, React and Node. Although still early days,
+          the raw power and flexibility of back end constantly inspires me to push my
+          boundaries in my learning.  At the end of this fairy tail I want to work with a
+          company that makes a difference in the world. Then we will all live happily ever
+          after . . .
+        </p>
+      </div>
+    </div>
+
+    <div class="background" id="Projects">
+      <div class="text_box">
+        <h1>
+          Projects
+        </h1>
+        <p>
+        </p>
+      </div>
+    </div>
+
+    <div class="background" id="Technologies">
+      <div class="text_box">
+        <h1>
+          Technologies
+        </h1>
+        <p>
+        </p>
+      </div>
+    </div>
+
+    <div class="background" id="Contact">
+      <div class="text_box">
+        <h1>
+          Contact Me
+        </h1>
+        <form action="https://formspree.io/jayalexander@outlook.com.au"
+          method="POST">
+          Name:
+          <br></br>
+          <input type="text" name="name"><br></br>
+          Your email:
+          <br></br>
+          <input type="email" name="_replyto"><br></br>
+          Message:
+          <br></br>
+          <textarea rows="10" cols="60" name="message" placeholder="Your message"></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <br></br>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+
+
+
   </body>
 </html>

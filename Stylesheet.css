@@ -1,0 +1,138 @@
+.button {
+  height: 100%;
+  width: 20%;
+  background-color: #4F4F4F;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+  color: white;
+  box-shadow: inset 2px 2px 2px #454444;
+}
+
+.header {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  display: flex;
+  z-index: 2;
+}
+
+.footer {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #4F4F4F;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  z-index: 2;
+}
+
+.icon {
+  height: 100%;
+  background-color: #4F4F4F;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
+  margin-top: 5;
+  color: white;
+}
+
+.header_background {
+  background-image: url(backgroundimage.jpg);
+  background-size: 96%;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 5px;
+  position: fixed
+}
+
+.parallax_layer {
+  content: url(Subtract.svg);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  right:1%;
+}
+
+.background {
+  width: 100%;
+  background-color: #4F4F4F;
+  right: 10px;
+  top:-5px;
+  position: relative;
+  padding-top: 30px
+}
+
+.text_box {
+  width:80%;
+  z-index: 1;
+  background-color: white;
+  border: 1px solid black;
+  margin: auto;
+
+}
+
+.divider {
+  height: 50px;
+  width: 100%;
+  background-color: #4F4F4F;
+  position: relative;
+  right:10px;
+}
+
+p {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    font-family: 'Raleway'
+}
+
+h1 {
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+body {
+  margin-top: 40px;
+  background-color: #4F4F4F;
+}
+
+section {
+  width: 100%;
+  background:
+}
+
+div {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: 'Raleway'
+}
+
+a:hover {
+  color: yellow;
+}
+
+form {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
