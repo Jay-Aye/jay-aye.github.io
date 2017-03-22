@@ -2,7 +2,11 @@
 
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
     <title>Jay Alexander · Web App Developer</title>
     <meta name="description" content="Jay Alexander is a junior web/software developer specialising in back-end development">
 
@@ -18,31 +22,31 @@
 
     <!- Fixed top navigation bar->
     <nav class="header">
-      <div class="button">
-        <a href="#My Story">My Story</a>
-      </div>
-      <div class="button">
+      <span class="button">
+        <a href="#My Story">Story</a>
+      </span>
+      <span class="button">
         <a href="#Projects">Projects</a>
-      </div>
-      <div class="button">
-        <a href="#Technologies">Technologies</a>
-      </div>
-      <div class="button">
+      </span>
+      <span class="button">
+        <a href="#Skills">Skills</a>
+      </span>
+      <span class="button">
         <a href="#Contact">Contact</a>
-      </div>
-      <div class="button">
+      </span>
+      <span class="button">
         <a href="#Top">Top</a>
-      </div>
+      </span>
     </nav>
 
     <!- Fixed bottom links bar->
     <nav class="footer">
       <div class="icon">
-        <a href="https://github.com/Jay-Aye"><img src="github.svg" height="40" hspace="10"/></a>
-        <a href="https://www.linkedin.com/in/jay-alexander-7532b6139/"><img src="linkedin.svg" height="40" hspace="10"/></a>
-        <img src="JA-logo.gif" height="50" hspace="10"/>
-        <a href="https://twitter.com"><img src="twitter.svg" height="40" hspace="10"></a>
-        <a href="#Contact"><img src="email.png" height="35" hspace="10"></a>
+        <a href="https://github.com/Jay-Aye"><img src="images/github.svg" height="40" hspace="10"/></a>
+        <a href="https://www.linkedin.com/in/jay-alexander-7532b6139/"><img src="images/linkedin.svg" height="40" hspace="10"/></a>
+        <img src="images/JA-logo.gif" height="50" hspace="10"/>
+        <a href="https://twitter.com"><img src="images/twitter.svg" height="40" hspace="10"></a>
+        <a href="#Contact"><img src="images/email.png" height="35" hspace="10"></a>
 
       </div>
     </nav>
@@ -56,13 +60,20 @@
     </div>
 
     <div class="divider">
+      <center><img src="images/JA-logo.gif" width="20%"/></center>
+      <h1>
+        Jay Alexander
+      </h1>
+      <h1>
+        Web Developer
+      </h1>
     </div>
 
     <div class="background" id="My Story">
       <div class="text_box">
-        <h1>
+        <h2>
           My Story
-        </h1>
+        </h2>
         <p>
           At 28 years old and 7 years experience in the surveillance/casino gaming industry,
           I decided it was time to make a career change and learn some new skills.
@@ -81,40 +92,84 @@
 
     <div class="background" id="Projects">
       <div class="text_box">
-        <h1>
+        <h2>
           Projects
-        </h1>
+        </h2>
+        <h3>
+          Meal Planner <br />
+          <i class="devicon-ruby-plain-wordmark"></i>
+        </h3>
+        <center><img src="images/Meal Planner.png" width="80%"/></center>
         <p>
+          Add recipes to a database then create a weekly meal planner
+          based on the recipes.  Allows you to print off a full ingredients
+          list of all recipes in a weekly planner.  Check out Github below!
         </p>
+        <center><a href src="https://github.com/Jay-Aye/Meal-Planner"><img src="images/github.svg" height="40"/></a></center>
+        <h3>
+          Porfolio Website<br />
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+        </h3>
+        <p>
+          This website.  My first ever website.  Check out the full
+          documentation on Github below.
+        </p>
+        <center><a href src="https://github.com/Jay-Aye/jay-aye.github.io"><img src="images/github.svg" height="40"/></a></center>
+        <h3>
+          Currently working on:
+        </h3>
+        <p>
+          <i class="devicon-ruby-plain-wordmark"></i> Train Tracker
+          <p>
+            Track the next trains to depart from a specific station and on
+            a particular line to return a time until departure.  Utilizing API's.
+          </p>
+        </p>
+        <p style="text-align:center">
+          More to come . . .
+        </p>
+
       </div>
     </div>
 
-    <div class="background" id="Technologies">
+    <div class="background" id="Skills">
       <div class="text_box">
-        <h1>
-          Technologies
-        </h1>
-        <p>
+        <h2>
+          Skills
+        </h2>
+        <h3>
+          Currently applying
+        </h3>
+        <p class="devicons">
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-ruby-plain-wordmark"></i>
+        </p>
+        <h3>
+          Learning
+        </h3>
+        <p class="devicons">
+          <i class="devicon-rails-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original-wordmark"></i>
         </p>
       </div>
     </div>
 
     <div class="background" id="Contact">
       <div class="text_box">
-        <h1>
+        <h2>
           Contact Me
-        </h1>
+        </h2>
         <form action="https://formspree.io/jayalexander@outlook.com.au"
-          method="POST">
-          Name:
+          method="POST" style="padding-left:20%">
+          <textarea type="text" name="name" placeholder= "Name"></textarea>
           <br></br>
-          <input type="text" name="name"><br></br>
-          Your email:
+          <textarea type="email" name="_replyto" placeholder="Email"></textarea>
           <br></br>
-          <input type="email" name="_replyto"><br></br>
-          Message:
-          <br></br>
-          <textarea rows="10" cols="60" name="message" placeholder="Your message"></textarea>
+          <textarea class="large_box" name="message" placeholder="Your message"></textarea>
           <input type="text" name="_gotcha" style="display:none" />
           <br></br>
           <input type="submit" value="Send">

@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .button {
   height: 100%;
   width: 20%;
@@ -5,9 +54,8 @@
   margin: auto;
   text-align: center;
   overflow: hidden;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  line-height: 200%;
   color: white;
   box-shadow: inset 2px 2px 2px #454444;
 }
@@ -26,7 +74,7 @@
 
 .footer {
   position: fixed;
-  height: 60px;
+  height: 10%;
   width: 100%;
   background-color: #4F4F4F;
   bottom: 0px;
@@ -45,35 +93,34 @@
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
-  line-height: 60px;
+  line-height: 10%;
   margin-top: 5;
   color: white;
 }
 
 .header_background {
-  background-image: url(backgroundimage.jpg);
+  background-image: url(images/backgroundimage.jpg);
   background-size: 96%;
   background-repeat: no-repeat;
   height: 100%;
-  left: 5px;
   position: fixed
 }
 
 .parallax_layer {
-  content: url(Subtract.svg);
+  content: url(images/Subtract.svg);
   width: 100%;
   position: relative;
   z-index: 1;
-  right:1%;
+  top: -5px;
 }
 
 .background {
   width: 100%;
   background-color: #4F4F4F;
-  right: 10px;
-  top:-5px;
   position: relative;
-  padding-top: 30px
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: -15px;
 }
 
 .text_box {
@@ -86,53 +133,105 @@
 }
 
 .divider {
-  height: 50px;
+  height: 100%;
   width: 100%;
   background-color: #4F4F4F;
   position: relative;
-  right:10px;
+  top: -7px;
+}
+
+.large_box {
+  height: 20%;
+}
+
+.devicons {
+  font-size: 4em;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 2em;
+  border: 1px solid black;
 }
 
 p {
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    font-family: 'Raleway'
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Raleway';
+  font-size: 1.5em;
+}
+
+img.divider {
+  padding-top:5%;
+  padding-bottom:10%;
 }
 
 h1 {
-    font-family: 'Raleway';
-    text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left:5%
+}
+
+h2 {
+  font-family: 'Raleway';
+  text-align: center;
+  font-size: 3em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h3 {
+  font-family: 'Raleway';
+  text-align: center;
+  font-size: 2em;
+}
+
+i {
+  font-size: 1.5em;
 }
 
 body {
-  margin-top: 40px;
+  margin-top: 35px;
   background-color: #4F4F4F;
-}
-
-section {
-  width: 100%;
-  background:
 }
 
 div {
   width: 100%;
 }
 
+span {
+  padding-top:10px;
+}
+
 a {
+  margin: 10px;
+  padding-top: 50px;
   color: inherit;
   text-decoration: inherit;
-  font-family: 'Raleway'
+  font-family: 'Raleway';
+  font-size: 1em;
 }
 
 a:hover {
-  color: yellow;
+  color: blue;
 }
 
 form {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 10%;
+}
+
+@media screen and (min-width: 550px) {
+  .text_box {
+    width: 70%;
+  }
 }
