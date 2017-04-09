@@ -8,7 +8,7 @@ Design, Develop, Publish and Present a website in 2 weeks.
 
 * Learn the fundamentals of HTML and CSS so later I can build a portfolio website to showcase to future employers
 * Create a website that I am proud of that I can use as "My first Website" as a project piece for my portfolio website.
-* Create a website that has a strong base of responsivness across multiple platforms.
+* Create a website that has a strong base of responsiveness across multiple platforms.
 
 Starting this project I have no experience in HTML or CSS so I have to understand I won't be able to create a big flashy website and it will be a learn as I go.
 
@@ -26,7 +26,7 @@ This gave me a really strong foundation in HTML and CSS and what is possible in 
 
 * **AUDIENCE**
 
-This is my first ever website.  I want to use this as a project piece for a furture portfolio website.  Therefore my audience for this project is my class mates and teachers.  It will also be viewed on my portfolio so possible new employers might look at it.
+This is my first ever website.  I want to use this as a project piece for a future portfolio website.  Therefore my audience for this project is my class mates and teachers.  It will also be viewed on my portfolio so possible new employers might look at it.
 
 * **INSPIRATION**
 
@@ -60,7 +60,7 @@ Originally I wanted to have a parallax effect with my own graphics but then real
 
 With the strong foundation and references I had gained during my learning week, the development of the code was fairly straight forward.
 
-I had alot of issues trying to create a contact form because I didnt want to use pre-built code.  After alot of trial and error I didnt have the time to learn and understand PHP enough to create my own code so I utilised Formspree's contact form services to give the desired effect.
+I had alot of issues trying to create a contact form because I didn't want to use pre-built code.  After alot of trial and error I didn't have the time to learn and understand PHP enough to create my own code so I utilised Formspree's contact form services to give the desired effect.
 
 # WHAT I WILL DO DIFFERENTLY ON MY NEXT WEBSITE?
 
