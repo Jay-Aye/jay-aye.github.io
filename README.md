@@ -48,7 +48,7 @@ Originally I wanted to have a parallax effect with my own graphics but then real
 
 * **WIREFRAMES**
 
-![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/centerpiece.PNG)
+![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/Wireframe.png)
 
 ![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/Layout.PNG)
 
