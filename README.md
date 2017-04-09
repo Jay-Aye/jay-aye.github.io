@@ -29,7 +29,7 @@ This gave me a really strong foundation in HTML and CSS and what is possible in 
 This is my first ever website.  I want to use this as a project piece for a furture portfolio website.  Therefore my audience for this project is my class mates and teachers.  It will also be viewed on my portfolio so possible new employers might look at it.
 
 * **INSPIRATION**
-![](http://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/62412_XXX_v1.tif&wid=500&cvt=jpeg)
+![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/MirrorInspiration.jpg)
 
 I loved the look of the mirrors on the wall and thought it looked so clean and elegant.  I thought maybe overlaying it over a picture as a cutout would be nice.
 Then I found the picture of Melbourne from Southbank and just loved every element of it.  It was so dark and mysterious.
@@ -46,12 +46,11 @@ With that I felt that I had my attention grabbing section of the website.
 Originally I wanted to have a parallax effect with my own graphics but then realised I didn't have the time to invest in creating my own artwork as well as learning how to code the website.
 
 * **WIREFRAMES**
-![](https://jay-aye.github.io/images/centerpiece.png)
-![](https://jay-aye.github.io/images/Layout.png)
+![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/centerpiece.PNG)
+![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/Layout.PNG)
 
 * **LOGO**
-![](https://jay-aye.github.io/images/logos.png)
-
+![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/logos.PNG)
 
 # DEVELOPMENT
 
