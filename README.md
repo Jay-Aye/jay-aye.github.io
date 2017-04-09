@@ -29,6 +29,7 @@ This gave me a really strong foundation in HTML and CSS and what is possible in 
 This is my first ever website.  I want to use this as a project piece for a furture portfolio website.  Therefore my audience for this project is my class mates and teachers.  It will also be viewed on my portfolio so possible new employers might look at it.
 
 * **INSPIRATION**
+
 ![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/MirrorInspiration.jpg)
 
 I loved the look of the mirrors on the wall and thought it looked so clean and elegant.  I thought maybe overlaying it over a picture as a cutout would be nice.
