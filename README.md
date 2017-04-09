@@ -47,10 +47,13 @@ With that I felt that I had my attention grabbing section of the website.
 Originally I wanted to have a parallax effect with my own graphics but then realised I didn't have the time to invest in creating my own artwork as well as learning how to code the website.
 
 * **WIREFRAMES**
+
 ![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/centerpiece.PNG)
+
 ![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/Layout.PNG)
 
 * **LOGO**
+
 ![](https://github.com/Jay-Aye/jay-aye.github.io/blob/master/images/logos.PNG)
 
 # DEVELOPMENT
