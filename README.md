@@ -51,7 +51,7 @@ Originally I wanted to have a parallax effect with my own graphics but then real
 
 * **LOGO**
 ![](https://jay-aye.github.io/images/logos.png)
-# *insert different versions of logo here*
+
 
 # DEVELOPMENT
 
